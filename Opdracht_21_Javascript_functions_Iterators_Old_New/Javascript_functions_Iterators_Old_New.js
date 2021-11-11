@@ -31,4 +31,20 @@ while (i < colorsLength) {
 // New style: loops
 
 colors.forEach((element) => console.log(element));
-// FOR LOOP 1 with a function
+
+
+// //Iterating on an object
+
+let classmates = {
+  classmate_1: "John",
+  classmate_2: "Michael",
+  classmate_3: "Tom",
+  classmate_4: "Philip",
+  classmate_5: "Margaret",
+};
+for (let key in classmates) {
+  // keys
+  console.log(key + " is:"); // name, age, isAdmin
+  // values for the keys
+  console.log(classmates[key]); // John, 30, true
+}
